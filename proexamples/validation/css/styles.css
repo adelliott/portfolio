@@ -1,0 +1,46 @@
+#EmployeeForm {
+        width: 70vw;
+        margin: 20px auto;
+        background-color: #FFFFE0;
+        padding: 40px;
+        font-family: "Arial", "Sans-serif";
+    }
+    input[type=text] { 
+        
+        border-radius: 1px;
+    
+    }
+    input[type=submit] {
+       
+       border: none; 
+       padding: 8px;;
+    
+    }
+    input[type=submit]:hover {
+        
+        background:#F0E68C;
+        
+    }
+    .formlabel {
+        display: inline-block;
+        width: 140px;
+        text-align: right;
+        padding: 5px;
+    }
+    .error {
+        color: red;
+        padding-left: 5px;
+    }
+    #error-radio {
+        
+        visibility: hidden;
+        color: red;
+    }
+    
+    textarea {
+       
+       resize: both; 
+       max-width: 300px;
+       max-height: 200px;
+        
+    }
